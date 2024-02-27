@@ -1,5 +1,11 @@
 # <img src="sesame_logo.png" width="150"/> Self-supervised framework for Extractive queStion Answering over docuMent collEctions
 
+SESAME is an open-source tool for domain adaptation in ODQA using only one GPU. Our method surpasses several state-of-the-art (SOTA) results in ODQA, including outperforming ChatGPT 3.5 in certain scenarios. In some instances, our performance even matches that of models fine-tuned on labeled data. SESAME boasts the ability to adapt to specific domains with less than 24 hours of training time on a single GPU, making it accessible to companies with limited resources. We have rigorously tested SESAME across various datasets and languages, demonstrating its versatility and effectiveness. The figure below show an overview of SESAME:
+
+<img src="sesame_stages.png"/>
+
+
+
 
 ## Installation instructions
 
