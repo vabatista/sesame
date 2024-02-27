@@ -1,0 +1,1 @@
+The code from this folder was adapted from [this github repository](https://github.com/patil-suraj/question_generation)

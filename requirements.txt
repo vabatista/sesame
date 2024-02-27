@@ -1,0 +1,27 @@
+torch>=2.1.0
+#lightning>=2.1.1
+lightning @ git+https://github.com/Lightning-AI/lightning@6dfa5cca9de5c28548eef5582a53c483b0eda66a
+jsonargparse[signatures]  # CLI
+bitsandbytes==0.41.0 # quantization
+scipy          # required by bitsandbytes
+tokenizers     # llama-based models
+datasets       # quantize/gptq.py
+pandas         # prepare_csv.py
+transformers
+accelerate 
+evaluate 
+huggingface_hub 
+nltk
+scikit-learn
+sentence-transformers
+rank-bm25
+peft
+nlp
+dill==0.3.4
+
+## For Qwen usage
+trl
+tiktoken
+transformers_stream_generator
+einops
+

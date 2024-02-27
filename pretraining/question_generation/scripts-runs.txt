@@ -1,0 +1,55 @@
+python prepare_data.py \
+    --task ans_ext \
+    --model_type t5 \
+    --dataset_path data/squad_v2 \
+    --qg_format highlight_qg_format \
+    --max_source_length 512 \
+    --max_target_length 32 \
+    --train_file_name train_data_multi_t5_ptbr.pt \
+    --valid_file_name valid_data_multi_t5_ptbr.pt \
+    --tokenizer unicamp-dl/ppt5-base-t5-vocab \
+    --valid_for_qg_only 
+    
+
+python run_qg.py \
+    --model_name_or_path google/flan-t5-large \
+    --model_type t5 \
+    --tokenizer_name_or_path t5_qg_tokenizer \
+    --output_dir ../../saved-models/google-t5-large \
+    --train_file_path data/train_data_multi_t5_multi.pt \
+    --valid_file_path data/valid_data_multi_t5_multi.pt \
+    --per_device_train_batch_size 32 \
+    --per_device_eval_batch_size 32 \
+    --learning_rate 1e-4 \
+    --num_train_epochs 10 \
+    --seed 5 \
+    --do_train \
+    --do_eval \
+    --logging_steps 100 \
+    --remove_unused_columns False \
+    --evaluation_strategy epoch \
+    --save_strategy epoch \
+    --save_total_limit 2 
+
+
+python run_qg.py \
+    --model_name_or_path meta-llama/Llama-2-7b-chat-hf \
+    --model_type llama \
+    --tokenizer_name_or_path llama_qg_tokenizer \
+    --output_dir ../../saved-models/llama-qg \
+    --train_file_path data/train_data_multi_t5_llama.pt \
+    --valid_file_path data/valid_data_multi_t5_llama.pt \
+    --per_device_train_batch_size 2 \
+    --per_device_eval_batch_size 2 \
+    --learning_rate 1e-4 \
+    --seed 5 \
+    --do_train \
+    --logging_steps 100 \
+    --remove_unused_columns False \
+    --evaluation_strategy epoch \
+    --save_strategy epoch \
+    --save_total_limit 1 \
+    --max_steps 5000 \
+    --overwrite_output_dir
+    
+    

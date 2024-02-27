@@ -1,0 +1,1 @@
+This folder was entirely copied from [LitGPT's repository](https://github.com/Lightning-AI/lit-gpt), since lit-gpt is not an library.
