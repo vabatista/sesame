@@ -51,6 +51,8 @@ However, if you want to pretrain them, you can use the following commands:
 
 ### Train Question-generation models from scratch
 
+The code for this step is based in [this github repository](https://github.com/patil-suraj/question_generation).
+
 Prepare data for training (replace `ans_ext` with `qg` for question generation):
 
 ```
@@ -157,3 +159,8 @@ Download the orignal, our synthetic, wikipedia caches and sbert datasets used in
 You can download results and models predictions from article from this [link](https://drive.google.com/file/d/1yXRPxGTwiTgDUrckkGD0mlUjDVdB-fqi/view?usp=drive_link) (205 MB) and here the file containing the [Ablation Study](https://drive.google.com/file/d/1hHQVOFatKC6b31LdPJH1bOOgrH6feQaR/view?usp=drive_link) (2MB). This way you can audit results and compare to your own experiments.
 
 
+## TODO
+
+- [ ] Make adapters to read contexts from pdf and txt
+- [ ] Create a web interface to interact with the model
+- [ ] Create a docker container to run the model
