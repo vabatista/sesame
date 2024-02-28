@@ -149,11 +149,11 @@ We also created several shell scripts to run a series of experiments in /experim
 
 ### Datasets Download
 
-Download the orignal, our synthetic, wikipedia caches and sbert datasets used in the experiments [here](https://drive.google.com/file/d/13tCAk5BU1vZm9esg1jzdRoliunKqe7dl/view?usp=drivesdk)
+Download the orignal, our synthetic, wikipedia caches and sbert datasets used in the experiments [here](https://drive.google.com/file/d/13tCAk5BU1vZm9esg1jzdRoliunKqe7dl/view?usp=drive_link) (4.5GB).
 
 
 ### Results Download
 
-You can download results and models predictions from article from this [link](https://drive.google.com/file/d/1) and here the file containing the [Ablation Study](https://drive.google.com/file/d/1hHQVOFatKC6b31LdPJH1bOOgrH6feQaR/view?usp=drivesdk). This way you can audit results and compare to your own experiments.
+You can download results and models predictions from article from this [link](https://drive.google.com/file/d/1yXRPxGTwiTgDUrckkGD0mlUjDVdB-fqi/view?usp=drive_link) (205 MB) and here the file containing the [Ablation Study](https://drive.google.com/file/d/1hHQVOFatKC6b31LdPJH1bOOgrH6feQaR/view?usp=drive_link) (2MB). This way you can audit results and compare to your own experiments.
 
 
