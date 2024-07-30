@@ -158,6 +158,22 @@ Download the orignal, our synthetic, wikipedia caches and sbert datasets used in
 
 You can download results and models predictions from article from this [link](https://drive.google.com/file/d/1yXRPxGTwiTgDUrckkGD0mlUjDVdB-fqi/view?usp=drive_link) (205 MB) and here the file containing the [Ablation Study](https://drive.google.com/file/d/1hHQVOFatKC6b31LdPJH1bOOgrH6feQaR/view?usp=drive_link) (2MB). This way you can audit results and compare to your own experiments.
 
+### Cite this work
+
+﻿@Article{vabatista2024,
+	author={Batista, Vitor A. and Gomes, Diogo S. M. and Evsukoff, Alexandre},
+	title={SESAME - self-supervised framework for extractive question answering over document collections},
+	journal={Journal of Intelligent Information Systems},
+	year={2024},
+	month={Jul},
+	day={30},
+	abstract={Question Answering is one of the most relevant areas in the field of Natural Language Processing, rapidly evolving with promising results due to the increasing availability of suitable datasets and the advent of new technologies, such as Generative Models. This article introduces SESAME, a Self-supervised framework for Extractive queStion Answering over docuMent collEctions. SESAME aims to enhance open-domain question answering systems (ODQA) by leveraging domain adaptation with synthetic datasets, enabling efficient question answering over private document collections with low resource usage. The framework incorporates recent advances with large language models, and an efficient hybrid method for context retrieval. We conducted several sets of experiments with the Machine Reading for Question Answering (MRQA) 2019 Shared Task datasets, FAQuAD - a Brazilian Portuguese reading comprehension dataset, Wikipedia, and Retrieval-Augmented Generation Benchmark, to demonstrate SESAME's effectiveness. The results indicate that SESAME's domain adaptation using synthetic data significantly improves QA performance, generalizes across different domains and languages, and competes with or surpasses state-of-the-art systems in ODQA. Finally, SESAME is an open-source tool, and all code, datasets and experimental data are available for public use in our repository.},
+	issn={1573-7675},
+	doi={10.1007/s10844-024-00869-6},
+	url={https://doi.org/10.1007/s10844-024-00869-6}
+}
+
+
 
 ## TODO
 
