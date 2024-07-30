@@ -160,6 +160,7 @@ You can download results and models predictions from article from this [link](ht
 
 ### Cite this work
 
+```
 ﻿@Article{vabatista2024,
 	author={Batista, Vitor A. and Gomes, Diogo S. M. and Evsukoff, Alexandre},
 	title={SESAME - self-supervised framework for extractive question answering over document collections},
@@ -172,7 +173,7 @@ You can download results and models predictions from article from this [link](ht
 	doi={10.1007/s10844-024-00869-6},
 	url={https://doi.org/10.1007/s10844-024-00869-6}
 }
-
+```
 
 
 ## TODO
