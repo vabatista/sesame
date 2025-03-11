@@ -111,7 +111,7 @@ You need to adapt this code if your input is in different format from [MRQA 2019
 
 ## Reproduce Experimental Setup
 
-### Run Information Retrivaval Experiment
+### Run Information Retrieval Experiment
 
 ```
 python experiments/evaluate_ir.py \
